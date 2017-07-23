@@ -1,0 +1,12 @@
+.note{
+  border-style: solid;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: lightblue;
+  margin: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.form{
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  margin-left: 3px;
+}

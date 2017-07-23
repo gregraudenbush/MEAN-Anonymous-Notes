@@ -1,0 +1,26 @@
+<!-- <p>
+  notes works!
+</p> -->
+<h1>Anonymous Notes</h1>
+
+<div class="form">
+  
+
+  <form (submit)="onSubmit()" >
+    <textarea name="note1" rows="4" cols="70"
+    
+    [(ngModel)] = "note.text"
+    #note1="ngModel"
+    ></textarea> 
+    
+    <br>
+    <input type="submit" value="add note">
+  </form>
+
+</div>
+<div *ngFor="let note of notes  ">
+  <div class="note">
+    -{{ note.text }} <p style="float: right;">{{ note.createdAt | date:'medium'  }}</p>
+  </div>  
+</div>
+ 
